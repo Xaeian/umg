@@ -1,6 +1,6 @@
 {
   "ext": "csv",
-  "sep": ";",
+  "sep": ",",
   "unit": "Hz",
   "title": "Powietrze",
   "plot": [
