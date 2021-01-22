@@ -1,0 +1,28 @@
+{
+  "ext": "csv",
+  "sep": ";",
+  "unit": "Hz",
+  "title": "Powietrze",
+  "plot": [
+    {
+      "legend": "Moduł impedancji",
+      "unit": "Ω",
+      "series": [{ "name": "[0] Rozruch SG" }]
+    },
+    {
+      "legend": "Faza",
+      "unit": "°",
+      "series": [{ "name": "[0] Rozruch SG" }]
+    },
+    {
+      "legend": "Indukcyjność",
+      "unit": "µH",
+      "series": [{ "name": "[0] Rozruch SG" }]
+    },
+    {
+      "legend": "ESR",
+      "unit": "Ω",
+      "series": [{ "name": "[0] Rozruch SG" }]
+    }
+  ]
+}

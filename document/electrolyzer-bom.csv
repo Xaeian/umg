@@ -1,0 +1,57 @@
+Manufacturer|Value|Code|Pacage|Description|Count|Supplier|Datasheet|Reference|
+Allegro|ACS773|ACS773ECB-200B-PFF-T|ACS773-PFF|Hall Sensor;|1|Digikey|www.sqrt.pl/datasheet/ACS773.pdf|HS.IC1|
+Diodes Incorporated|AP7381-3V3|AP7381-33SA-7|SOT23-3|3.3V; 100mA;|4|Mouser|www.sqrt.pl/datasheet/AP7381.pdf|PO.IC2; RS.IC2; S2.IC1; UK.IC2|
+Diodes Incorporated|AP7381-5V|AP7381-50SA-7|SOT23-3|5.0V; 100mA;|3|Mouser|www.sqrt.pl/datasheet/AP7381.pdf|HS.IC3; AN.IC2; REF.IC2|
+Harwin|TP|S2751-46R|S1751-46R|0805;|13|Mouser|-|TP1; TP2; TP6; TP8; TP9; TP10; TP5; TP12; TP11; TP3; TP4; TP0; TP7|
+Microchip|MCP1501|MCP1501T-33E/CHY|SOT23-6|3.3V; 20mA;|3|Mouser|www.sqrt.pl/datasheet/MCP1501.pdf|HS.IC2; AN.IC1; REF.IC1|
+Nexperia|74LV1T125|74LV1T125GWH|SOT23-5|Translating buffer;|4|Mouser|-|U.IC1; U.IC2; TIM.IC2; TIM.IC1|
+Nexperia|PSMNR51|PSMNR51-25YLH|SOT669|25V; 380A; 570µΩ;|2|Mouser|-|PO.T2; PO.T1|
+NXP Semiconductors|PCA9509A|PCA9509ADP,118|TSSOP8|I2C Buffer;|1|Mouser|www.sqrt.pl/datasheet/PCA9509.pdf|TWI.IC1|
+Silicon Labs|CP2102|CP2102N-A02-GQFN20R|QFN20-EP|UART-USB Converter;|1|Mouser|www.sqrt.pl/datasheet/CP2102N.pdf|USB.IC1|
+ST Microelectronics|ST1480|ST1480ABDR|SOIC8|RS485;|1|Mouser|www.sqrt.pl/datasheet/ST3485EB.pdf|RS.IC1|
+ST Microelectronics|STM32G081RB|STM32G081RBT6|LQFP64-10x10|Microcontroller;|1|Mouser|www.sqrt.pl/datasheet/STM32G071x{8,B}.pdf|UK.IC1|
+Texas Instruments|LMR50410|LMR50410YQDBVRQ1|SOT23-6|2.1MHz; IN 4-36V; OUT 1-28V; 1A;|1|Mouser|www.sqrt.pl/datasheet/LMR50410-Q1.pdf|S.IC1|
+Vishay|33V|VESD33C1-02VHG3-08|SOD523|100W; 35.5 V; 1.6A;|1|Mouser|-|S.D1|
+Abracon|32.768kHz|ABS06-32.768kHz-6-1-T|2012|±10ppm;|1|Mouser;|-|UK.XTAL1|
+ROHM Semiconductor|13V|SMF13VTR|SOD123|200W; 14.4V; 9.3A; 150pF;|6|Mouser;|-|PO.D16; PO.D1; PO.D11; PO.D4; PO.D5; PO.D12|
+ST Microelectronics|13V|SMA6F13AY|SOD128|600W; 15.2V; 147A; 150pF;|4|Mouser;|-|PO.D14; PO.D13; PO.D7; PO.D6|
+Belfuse|250mA|0ZCJ0025FF2E|1206|1206; 160mA; 30V;|1|TME|-|S.B1|
+Diotec Semiconductor|SKL310|SKL310|SOD123|100V; 3A;|1|TME|-|PO.D8|
+Infineon|2EDF7275F|2EDF7275FXUMA1|SOIC16|Mosfet high and low side driver;|1|TME|www.sqrt.pl/datasheet/2EDF7xx5F.pdf|PO.IC1|
+Infineon Technologies|BCR523U|BCR523UE6327|SOT23-6|50V; 500mA; 330mW; Reb=10kΩ; Rb=1kΩ;|3|TME|-|LED.T1; LED.T2; LED.T3|
+Molex|47053-1000|47053-1000|Molex-47053-1000|1x4; 4A;|3|TME|-|F.CN1; F.CN2; F.CN3|
+ON Semiconductor|5V|ESD5Z5.0T1G|SOD523|0.5W; 6.2V; 9.4A;|1|TME|-|PO.D15|
+ON Semiconductor|SD101AW|MMSD301T1G|SOD123|30V; 200mA; 1.5pF;|4|TME|-|PO.D10; PO.D9; PO.D3; PO.D2|
+ON Semiconductor|5V|SM05T1G|SOT23-3|TVS; 300W; 6,7V; 17A;|1|TME|-|RS.D1|
+Royal Ohm|10kΩ|0603SAF1002T5E|0603|±1%;|1|TME|-|S.R4|
+Royal Ohm|1kΩ|0603SAF1002T5E|0603|±1%;|5|TME|-|PO.R3; PO.R1; USB.R1; USB.R5; USB.R4|
+Royal Ohm|10Ω|0603SAF100JT5E|0603|±1%;|4|TME|-|PO.R2; PO.R5; HS.R2; REF.R2|
+Royal Ohm|20kΩ|0603SAF2002T5E|0603|±1%;|10|TME|-|TWI.R1; TWI.R2; RS.R2; RS.R1; USB.R2; S.R2; AN.R1; REF.R1; HS.R1; UK.R1|
+Royal Ohm|82kΩ|0603SAF2002T5E|0603|±1%;|2|TME|-|S.R1; S.R3|
+Royal Ohm|43kΩ|0603SAF4302T5E|0603|±1%;|1|TME|-|USB.R3|
+Royal Ohm|2.2kΩ|4D03WGJ0222T5E|4x0603|±5%;|3|TME|-|PO.R4; LED.R1; LED.R2|
+Sensirion|SHTC3|SHTC3|SHTC3|Humidity and temperature sensor;|1|TME|www.sqrt.pl/DataSheet/SHTC3.pdf|TS.IC1|
+ST Microelectronics|USBLC6|USBLC6-2SC6|SOT23-6|-|1|TME|www.sqrt.pl/datasheet/USBLC6.pdf|USB.IC2|
+ST Microelectronics|USBUF|USBUF02W6|SOT23-6|-|1|TME|www.sqrt.pl/datasheet/USBUF.pdf|USB.IC3|
+Würth Elektronik|RGB|150353M153300|PLCC6-3528|RGB;|3|Würth Elektronik|https://www.we-online.com/catalog/datasheet/150353M153300.pdf|USB.L1; LED.L1; LED.L2|
+Würth Elektronik|WR-WTB|61900113722DEC|-|WR-WTB-2.54mm;|34|Würth Elektronik|-|ECT5|
+Würth Elektronik|WP-PLUG|7464000|WP-PLUG-RedCube|WP-PLUG-RedCube;|3|Würth Elektronik|-|PLUG5; PLUG3; PLUG4|
+Würth Elektronik|WP-PLUG|74640010|-|WP-PLUG-RedCube;|3|Würth Elektronik|-|ECT1|
+Würth Elektronik|Caps|714306050|120x120mm-Caps|Red;|1|Würth Elektronik|-|EX1|
+Würth Elektronik|Caps|714308050|120x120mm-Caps|Green;|1|Würth Elektronik|-|EX2|
+Würth Elektronik|WR-WTB|61900211621|-|WR-WTB-2.54mm;|1|Würth Elektronik|-|ECT2|
+Würth Elektronik|WR-WTB|61900219521|Angled-Right-02|WR-WTB-2.54mm;|1|Würth Elektronik|-|S.CN1|
+Würth Elektronik|WR-WTB|61900311621|-|WR-WTB-2.54mm;|5|Würth Elektronik|-|ECT3|
+Würth Elektronik|WR-WTB|61900319521|Angled-Right-03|WR-WTB-2.54mm;|5|Würth Elektronik|-|AN.CN1; AN.CN2; AN.CN3; TIM.CN2; TIM.CN1|
+Würth Elektronik|WR-WTB|61900411121|Straight-04|WR-WTB-2.54mm;|2|Würth Elektronik|-|TWI.CN2; RS.CN2|
+Würth Elektronik|WR-WTB|61900411621|-|WR-WTB-2.54mm;|4|Würth Elektronik|-|ECT4|
+Würth Elektronik|WR-WTB|61900419521|Angled-Right-04|WR-WTB-2.54mm;|4|Würth Elektronik|-|TWI.CN1; U.CN1; UK.CN1; RS.CN1|
+Würth Elektronik|USB|65100516121|USB-B-Mini-Horizontal|Mini USB 2.0;|1|Würth Elektronik|-|USB.CN1|
+Würth Elektronik|10µH|74404052100|5020|1.6A;|1|Würth Elektronik|-|S.L1|
+Würth Elektronik|12x12mm|430162073826|120x120mm|Tact Switch;|2|Würth Elektronik|-|SW2; SW1|
+Würth Elektronik|15pF|885012006052|0603|50V; NP0; ±5%;|2|Würth Elektronik|-|UK.C1; UK.C2|
+Würth Elektronik|1nF|885012006063|0603|50V; NP0; ±5%;|12|Würth Elektronik|-|PO.C2; PO.C8; PO.C5; PO.C7; HS.C4; AN.C4; TS.C1; S.C2; REF.C4; UK.C5; SW.C1; SW.C2|
+Würth Elektronik|10µF|885012106006|0603|6.3V; X5R; ±20%;|21|Würth Elektronik|-|PO.C4; HS.C2; HS.C3; AN.C2; AN.C3; USB.C1; USB.C2; S.C8; S.C7; S.C5; S.C4; S.C3; S.C6; RS.C2; REF.C2; REF.C3; S2.C1; S2.C2; UK.C4; TIM.C1; U.C1|
+Würth Elektronik|1µF|885012106022|0603|25V; X5R; ±20%;|9|Würth Elektronik|-|PO.C1; PO.C6; PO.C3; HS.C1; UK.C3; S.C9; RS.C1; AN.C1; REF.C1|
+Würth Elektronik|10µF|885012108022|1206|50V; X5R; ±10%;|1|Würth Elektronik|-|PO.C9|
+Würth Elektronik|100nF|885012206095|0603|50V; X7R; ±10%;|1|Würth Elektronik|-|S.C1|
