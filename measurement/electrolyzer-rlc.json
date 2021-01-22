@@ -10,22 +10,54 @@
     {
       "legend": "Moduł impedancji",
       "unit": "Ω",
-      "series": [{ "name": "Moduł impedancji" }]
+      "series": [
+        {
+          "name": "Moduł impedancji",
+          "width": 1.5,
+          "smooth": 0.5,
+          "fill": 0.5,
+          "show_points": true
+        }
+      ]
     },
     {
       "legend": "Faza",
       "unit": "°",
-      "series": [{ "name": "Faza" }]
+      "series": [
+        {
+          "name": "Faza",
+          "width": 1.5,
+          "smooth": 0.5,
+          "fill": 0.5,
+          "show_points": true
+        }
+      ]
     },
     {
       "legend": "Indukcyjność",
       "unit": "µH",
-      "series": [{ "name": "Indukcyjność" }]
+      "series": [
+        {
+          "name": "Indukcyjność",
+          "width": 1.5,
+          "smooth": 0.5,
+          "fill": 0.5,
+          "show_points": true
+        }
+      ]
     },
     {
       "legend": "ESR",
       "unit": "Ω",
-      "series": [{ "name": "ESR" }]
+      "series": [
+        {
+          "name": "ESR",
+          "width": 1.5,
+          "smooth": 0.5,
+          "fill": 0.5,
+          "show_points": true
+        }
+      ]
     }
   ]
 }
