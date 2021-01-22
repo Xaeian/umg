@@ -8,7 +8,7 @@
   "title": "Elektrolizer RLC",
   "plot": [
     {
-      "legend": "Moduł impedancji",
+      "legend": "Rezystancja",
       "unit": "Ω",
       "series": [
         {
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "legend": "Faza",
+      "legend": "Kąt",
       "unit": "°",
       "series": [
         {
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "legend": "ESR",
+      "legend": "Rezystancja",
       "unit": "Ω",
       "series": [
         {
