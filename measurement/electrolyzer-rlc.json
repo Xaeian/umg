@@ -13,7 +13,7 @@
       "series": [
         {
           "name": "Moduł impedancji",
-          "width": 1.5,
+          "width": 3,
           "smooth": 0.5,
           "fill": 0.5,
           "show_points": true
@@ -26,7 +26,7 @@
       "series": [
         {
           "name": "Faza",
-          "width": 1.5,
+          "width": 3,
           "smooth": 0.5,
           "fill": 0.5,
           "show_points": true
@@ -39,7 +39,7 @@
       "series": [
         {
           "name": "Indukcyjność",
-          "width": 1.5,
+          "width": 3,
           "smooth": 0.5,
           "fill": 0.5,
           "show_points": true
@@ -52,7 +52,7 @@
       "series": [
         {
           "name": "ESR",
-          "width": 1.5,
+          "width": 3,
           "smooth": 0.5,
           "fill": 0.5,
           "show_points": true
