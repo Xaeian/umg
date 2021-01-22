@@ -2,7 +2,7 @@
   "ext": "csv",
   "sep": ",",
   "unit": "Hz",
-  "title": "Powietrze",
+  "title": "Elektrolizer RLC",
   "plot": [
     {
       "legend": "Moduł impedancji",
