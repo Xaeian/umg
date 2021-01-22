@@ -13,7 +13,7 @@
       "series": [
         {
           "name": "Moduł impedancji",
-          "width": 3,
+          "width": 13,
           "smooth": 0.5,
           "fill": 0.5,
           "show_points": true
