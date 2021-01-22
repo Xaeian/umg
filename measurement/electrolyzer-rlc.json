@@ -1,6 +1,9 @@
 {
-  "ext": "csv",
-  "sep": ",",
+  "data": {
+    "type": "csv",
+    "sep": ","
+  },
+  "type": "log",
   "unit": "Hz",
   "title": "Elektrolizer RLC",
   "plot": [

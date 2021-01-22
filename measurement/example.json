@@ -1,7 +1,9 @@
 {
-  "ext": "csv",
-  "sep": ";",
-  "x-axis": "datetime",
+  "data": {
+    "type": "csv",
+    "sep": ";"
+  },
+  "type": "time",
   "title": "Powietrze",
   "plot": [
     {
