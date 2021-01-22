@@ -7,22 +7,22 @@
     {
       "legend": "Moduł impedancji",
       "unit": "Ω",
-      "series": [{ "name": "[0] Rozruch SG" }]
+      "series": [{ "name": "Moduł impedancji" }]
     },
     {
       "legend": "Faza",
       "unit": "°",
-      "series": [{ "name": "[0] Rozruch SG" }]
+      "series": [{ "name": "Faza" }]
     },
     {
       "legend": "Indukcyjność",
       "unit": "µH",
-      "series": [{ "name": "[0] Rozruch SG" }]
+      "series": [{ "name": "Indukcyjność" }]
     },
     {
       "legend": "ESR",
       "unit": "Ω",
-      "series": [{ "name": "[0] Rozruch SG" }]
+      "series": [{ "name": "ESR" }]
     }
   ]
 }
