@@ -14,7 +14,6 @@ Zasilacz PCB - Render 3D:
 
 Schemat do pomiaru charakteru (**L** oraz **C** w funkcji **f**) przy pomocy mostka RLC:
 ![electrolyzer-rlc](./image/electrolyzer-rlc-scheme-basic.png)
-Wyniki pomiarów: [electrolyzer-rlc.csv](./measurement/electrolyzer-rlc.csv)
 
 - [Wyniki pomiarów ↪](./measurement/electrolyzer-rlc.csv)
 - [Wykres ↪](http://www.sqrt.pl/view/?https://raw.githubusercontent.com/Xaeian/umg/master/measurement/electrolyzer-rlc.json)
