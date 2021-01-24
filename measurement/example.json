@@ -9,42 +9,39 @@
     {
       "legend": "Ciśbnienie, Powietrze, Silnik, LB",
       "unit": "MPa",
-      "series": [{ "name": "[0] Rozruch SG" }]
+      "series": [{ "name": "Rozruch SG" }]
     },
     {
       "legend": "Ciśbnienie, Powietrze, Silnik, PB",
       "unit": "MPa",
-      "series": [{ "name": "[1] Rozruch SG" }]
+      "series": [{ "name": "Rozruch SG" }]
     },
     {
       "legend": "Ciśbnienie, Powietrze, ZP1",
       "unit": "MPa",
-      "series": [{ "name": "[2] Rozruch, ZP1" }]
+      "series": [{ "name": "Rozruch, ZP1" }]
     },
     {
       "legend": "Ciśbnienie, Powietrze, ZAP",
       "unit": "MPa",
-      "series": [{ "name": "[3] Rozruch, PLC3" }]
+      "series": [{ "name": "Rozruch, PLC3" }]
     },
     {
       "legend": "Ciśbnienie, Powietrze, ZP2",
       "unit": "MPa",
-      "series": [{ "name": "[4] Rozruch, ZP2" }]
+      "series": [{ "name": "Rozruch, ZP2" }]
     },
     {
       "legend": "Temperatura, Sprężarka pow. rozruchu",
       "unit": "°C",
-      "series": [
-        { "name": "[5] Powietrze, Wlot" },
-        { "name": "[6] Powietrze, Wylot" }
-      ]
+      "series": [{ "name": "Powietrze, Wlot" }, { "name": "Powietrze, Wylot" }]
     },
     {
       "legend": "Ciśbnienie, Magistrala przed zbiornikami",
       "unit": "MPa",
       "series": [
-        { "name": "[7] Powietrze" },
-        { "name": "[8] Sprężcone Powietrze" }
+        { "name": "Powietrze", "lines": 200 },
+        { "name": "Sprężcone Powietrze" }
       ]
     }
   ]
