@@ -1,7 +1,7 @@
 ## UMG - Emilian Świtalski
 
-- [Data Example ↪](./measurement/example.csv)
-- [Wykres Example ↪](http://www.sqrt.pl/view/?https://raw.githubusercontent.com/Xaeian/umg/master/measurement/example.json)
+- Data Example [↪](./measurement/example.csv)
+- Wykres Example [↪](http://www.sqrt.pl/view/?https://raw.githubusercontent.com/Xaeian/umg/master/measurement/example.json)
 
 # Elektrolizer
 
@@ -15,8 +15,8 @@ Zasilacz PCB - Render 3D:
 Schemat do pomiaru charakteru (**L** oraz **C** w funkcji **f**) przy pomocy mostka RLC:
 ![electrolyzer-rlc](./image/electrolyzer-rlc-scheme-basic.png)
 
-- [Wyniki pomiarów ↪](./measurement/electrolyzer-rlc.csv)
-- [Wykres ↪](http://www.sqrt.pl/view/?https://raw.githubusercontent.com/Xaeian/umg/master/measurement/electrolyzer-rlc.json)
+- Wyniki pomiarów [↪](./measurement/electrolyzer-rlc.csv)
+- Wykres [↪](http://www.sqrt.pl/view/?https://raw.githubusercontent.com/Xaeian/umg/master/measurement/electrolyzer-rlc.json)
 
 #### Pomiary mostkiem RLC ze składowąstałą
 
