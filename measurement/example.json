@@ -40,7 +40,7 @@
       "legend": "Ciśbnienie, Magistrala przed zbiornikami",
       "unit": "MPa",
       "series": [
-        { "name": "Powietrze", "lines": 200 },
+        { "name": "Powietrze", "lines": [200] },
         { "name": "Sprężcone Powietrze" }
       ]
     }
