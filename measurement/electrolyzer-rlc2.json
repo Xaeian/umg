@@ -1,0 +1,137 @@
+{
+  "data": {
+    "type": "csv",
+    "sep": ","
+  },
+  "type": "log",
+  "unit": "Hz",
+  "title": "Elektrolizer RLC",
+  "plot": [
+    {
+      "legend": "Pojemność",
+      "unit": "µF",
+      "size": 1,
+      "series": [
+        {
+          "name": "Pojemność Kondensatora",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    },
+    {
+      "legend": "Indukcyjność",
+      "unit": "mH",
+      "size": 1,
+      "series": [
+        {
+          "name": "Indukcyjność Dławika",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    },
+    {
+      "legend": "Rezystancja",
+      "unit": "Ω",
+      "size": 1,
+      "series": [
+        {
+          "name": "Rezystancja Opornika",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    },
+    {
+      "legend": "Rezystancja",
+      "unit": "Ω",
+      "size": 2,
+      "series": [
+        {
+          "name": "Moduł Z",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        },
+        {
+          "name": "Moduł Z (2)",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    },
+    {
+      "legend": "Faza",
+      "unit": "°",
+      "size": 2,
+      "series": [
+        {
+          "name": "Faza",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        },
+        {
+          "name": "Faza (2)",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    },
+    {
+      "legend": "Indukcyjność",
+      "unit": "µH",
+      "size": 2,
+      "series": [
+        {
+          "name": "Ls",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        },
+        {
+          "name": "Ls (2)",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    },
+    {
+      "legend": "Rezystancja",
+      "unit": "Ω",
+      "size": 2,
+      "series": [
+        {
+          "name": "ESR",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        },
+        {
+          "name": "ESR (2)",
+          "width": 3,
+          "smooth": 0.5,
+          "fill": 0.2,
+          "show_points": true
+        }
+      ]
+    }
+  ]
+}
