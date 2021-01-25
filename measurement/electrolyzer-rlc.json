@@ -12,7 +12,7 @@
       "unit": "Ω",
       "series": [
         {
-          "name": "Moduł impedancji",
+          "name": "|Z|",
           "width": 3,
           "smooth": 0.5,
           "fill": 0.2,
@@ -38,7 +38,7 @@
       "unit": "µH",
       "series": [
         {
-          "name": "Indukcyjność",
+          "name": "Ls",
           "width": 3,
           "smooth": 0.5,
           "fill": 0.2,

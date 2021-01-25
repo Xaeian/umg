@@ -55,17 +55,15 @@
       "size": 2,
       "series": [
         {
-          "name": "Moduł Z",
+          "name": "|Z|",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         },
         {
-          "name": "Moduł Z (2)",
+          "name": "|Z|²",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         }
       ]
@@ -79,14 +77,12 @@
           "name": "Faza",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         },
         {
-          "name": "Faza (2)",
+          "name": "Faza²",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         }
       ]
@@ -100,14 +96,12 @@
           "name": "Ls",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         },
         {
-          "name": "Ls (2)",
+          "name": "Ls²",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         }
       ]
@@ -121,14 +115,12 @@
           "name": "ESR",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         },
         {
-          "name": "ESR (2)",
+          "name": "ESR²",
           "width": 3,
           "smooth": 0.5,
-          "fill": 0.2,
           "show_points": true
         }
       ]
