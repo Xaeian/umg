@@ -1,7 +1,7 @@
 {
   "data": {
     "type": "csv",
-    "sep": ";"
+    "sep": ","
   },
   "type": "time",
   "title": "Bee-Counter",
