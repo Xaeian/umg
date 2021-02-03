@@ -1,0 +1,50 @@
+{
+  "data": {
+    "type": "csv",
+    "sep": ","
+  },
+  "type": "time",
+  "title": "Bee-Counter",
+  "plot": [
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A0" }, { "name": "B0" }, { "name": "C0" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A1" }, { "name": "B1" }, { "name": "C1" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A2" }, { "name": "B2" }, { "name": "C2" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A3" }, { "name": "B3" }, { "name": "C3" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A4" }, { "name": "B4" }, { "name": "C4" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A5" }, { "name": "B5" }, { "name": "C5" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A6" }, { "name": "B6" }, { "name": "C6" }]
+    },
+    {
+      "legend": "ADC",
+      "unit": "-",
+      "series": [{ "name": "A7" }, { "name": "B7" }, { "name": "C7" }]
+    }
+  ]
+}
