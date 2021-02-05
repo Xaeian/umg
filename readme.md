@@ -153,7 +153,9 @@ Wówczas jego rozpuszczalność wnosi **115.15**
 Wodorotlenek potasu **KOH** jest bardzo mocją zasadą co oznacza, że w pełni dysocjuje _(wydaje mi się, że to też jest zależne od stężenia, ale trzeba się kogoś podpytać)_. Zatem bez problemu można obliczyć ilość jonów **OH<sup>-</sup>**, a następnie **ph** posługując się wzorem:
 
 ![\Large ph=14-pOH](https://latex.codecogs.com/svg.latex?\Large&space;ph=\14-pOH)
+
 ![\Large pOH=log(OH^-)](<https://latex.codecogs.com/svg.latex?\Large&space;pOH=log(OH^-)>)
+
 _<sup>Formuła na obliczenie pH dla silnych zasad</sup>_
 
 oraz [tablicą Mendelejewa](https://ptable.com/#)
