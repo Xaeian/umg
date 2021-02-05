@@ -159,7 +159,7 @@ _<sup>Formuła na obliczenie pH dla silnych zasad</sup>_
 oraz [tablicą Mendelejewa](https://ptable.com/#)
 
 ```py
-mKOH = H20_25C # masa KOH [g]
+mKOH = H20_22C5 # masa KOH [g]
 mH20 = 100 # masa wody [g]
 pc = (100 * mKOH) / (mKOH + 100) # stężenie procentowe
 
@@ -188,7 +188,7 @@ Dla tak mocno stężonego kwasu **pH** wynosi **15.313**
 Parametryzacja (zmiana na wektor) zmiennej `mKOH` pozwoli wyrysować zależność pH od stężenia procentowego
 
 ```py
-mKOH = np.arange(start = 0.1, stop = H20_25C, step = 0.1)
+mKOH = np.arange(start = 0.1, stop = H20_22C5, step = 0.1)
 n = len(mKOH)
 
 pc = np.zeros(n)
