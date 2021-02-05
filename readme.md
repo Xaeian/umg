@@ -17,7 +17,7 @@ Pomiar pH został zrealizowany za pomocą sondy przemysłowej [H-101 pH electrod
 | :-----------------------: | :------------------------: |
 | ![](./image/ph-probe.jpg) | ![](./image/ph-buffer.jpg) |
 
-, Jednak lepiej wykorzystać wszystkie, gdyż w przypadku delikatnej nieliniowości zostanie ona skompensowana. Przetwornik **ADC** jest skalibrowany na 16-bitów. Kalibracja polega na wykonaniu 3 pomiarów. Każdy z pomiarów dostarczy nam informacji wynik konwersji A/C _(oś **x**)_. Następnie trzeba skojarzyć pomiary z znanymi wartościami pH _(oś **y**)_. Mając 3 punkty (**x**, **y**) możemy obliczyć parabole, która będzie funkcją **pH** od wartość cyfrowej przetwornika **ADC**.
+Zakładając liniowość przetwornika, starczyłoby użyć 2 roztworów. Jednak zostały wykorzystane wszystkie, gdyż w przypadku delikatnej nieliniowości zostanie ona skompensowana. Przetwornik **ADC** jest skalibrowany na 16-bitów. Kalibracja polega na wykonaniu 3 pomiarów. Każdy z pomiarów dostarczy nam informacji wynik konwersji A/C _(oś **x**)_. Następnie trzeba skojarzyć pomiary z znanymi wartościami pH _(oś **y**)_. Mając 3 punkty (**x**, **y**) możemy obliczyć parabole, która będzie funkcją **pH** od wartość cyfrowej przetwornika **ADC**.
 
 W praktycznej implementacji mamy obiekt kalibracji, który przechowuje:
 
@@ -118,6 +118,15 @@ void QUAD_Init(QUAD_t *scale)
   EEPROM_Read(scale->eeprom, (uint32_t *)&scale->c);
 }
 ```
+
+Rezultat kalibracji:
+
+- `a = -9.6577224e-010`
+- `b = 0.000169220919`
+- `c = 3.60684085`
+
+Widzimy, że współczynnik `a ≈ 0` co potwierdza liniowość układu.
+Dla kalibracji wykonanej w ten sposów **ph<sub>KOH</sub> = 9.77**
 
 #### Stężenia, a PH
 
