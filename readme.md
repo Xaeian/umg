@@ -154,7 +154,7 @@ Wodorotlenek potasu **KOH** jest bardzo mocją zasadą co oznacza, że w pełni 
 
 ![\Large ph=14-pOH](https://latex.codecogs.com/svg.latex?\Large&space;ph=\14-pOH)
 
-![\Large pOH=log(OH^-)](<https://latex.codecogs.com/svg.latex?\Large&space;pOH=log(OH^-)>)
+![\Large pOH=-log(OH^-)](<https://latex.codecogs.com/svg.latex?\Large&space;pOH=-log(OH^-)>)
 
 _<sup>Formuła na obliczenie pH dla silnych zasad</sup>_
 
