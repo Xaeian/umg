@@ -31,13 +31,13 @@
 
 **Pomiary mostkiem RLC**
 
-| Freq[kHz] | Z[Ω] | Fi[°]  | Ls[uH] | ESR[Ω] | Cp[uF] | D[-]  |
-| :-------: | :--: | :----: | :----: | :----: | :----: | :---: |
-|    0.1    | 0.69 | -4.821 |  -94   |  0.69  | 192.5  | 11.85 |
-|     1     | 0.68 | 1.688  |  3.22  |  0.69  |  -6.9  | 33.97 |
-|    10     | 0.76 | 20.45  |  4.2   |  0.71  | -7.28  | 2.69  |
-|    100    | 2.51 | 39.91  |  2.56  |  1.92  | -0.407 | 1.194 |
-|    200    | 3.4  | 26.64  | 1.217  |  3.05  | -0.105 | 1.991 |
+| Freq[kHz] | Z[Ω] |  Fi[°] | Ls[uH] | ESR[Ω] | Cp[uF] |  D[-] |
+| --------: | ---: | -----: | -----: | -----: | -----: | ----: |
+|       0.1 | 0.69 | -4.821 |    -94 |   0.69 |  192.5 | 11.85 |
+|         1 | 0.68 |  1.688 |   3.22 |   0.69 |   -6.9 | 33.97 |
+|        10 | 0.76 |  20.45 |    4.2 |   0.71 |  -7.28 |  2.69 |
+|       100 | 2.51 |  39.91 |   2.56 |   1.92 | -0.407 | 1.194 |
+|       200 |  3.4 |  26.64 |  1.217 |   3.05 | -0.105 | 1.991 |
 
 **Pomiary statyczne**
 
@@ -57,13 +57,13 @@ W kolejnym pomiarze zostało odmierzone 20g KOH i zostało
 
 ### Roztwór KOH ~2‰
 
-| Freq[kHz] | Z[Ω]  | Fi[°]  | Ls[uH] | ESR[Ω] | Cp[uF] | D[-] |
-| :-------: | :---: | :----: | :----: | :----: | :----: | :--: |
-|    0.1    | 0.121 | -10.44 |   -    |   -    |   -    |  -   |
-|     1     | 0.121 | -10.44 |   -    |   -    |   -    |  -   |
-|    10     | 0.313 | 80.57  |   -    |   -    |   -    |  -   |
-|    100    |   -   |   -    |   -    |   -    |   -    |  -   |
-|    200    | 5.842 | 88.65  |   -    |   -    |   -    |  -   |
+| Freq[kHz] |  Z[Ω] |  Fi[°] | Ls[uH] | ESR[Ω] | Cp[uF] | D[-] |
+| --------: | ----: | -----: | -----: | -----: | -----: | ---: |
+|       0.1 | 0.121 | -10.44 |      - |      - |      - |    - |
+|         1 | 0.121 | -10.44 |      - |      - |      - |    - |
+|        10 | 0.313 |  80.57 |      - |      - |      - |    - |
+|       100 |     - |      - |      - |      - |      - |    - |
+|       200 | 5.842 |  88.65 |      - |      - |      - |    - |
 
 |  I[A] | U[V] |  Time |  R[Ω] |
 | ----: | ---: | ----: | ----: |
@@ -101,3 +101,5 @@ Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję
 - Ciekawą obserwacją jest, że podczas zwalniania zaworu prąd znacznie rośnie, a potem powoli spada. Może wyższe ciśnienie prowadzi, do zwiększenia rezystancji elektrolizera zmniejszając produkcję. Jednak podczas pomiaru przepływomierzem (bez zmiany ciśnienia) można było zaobserwować wahania przy zmianie punktu pracy. Tą zależność będzie można wyłapać za pomocą pomiarów rejestrowanych automatycznie w czasie rzeczywistym.
 
 Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to wynika, ale jak trochę rozładowałem elektrolizer, to zaczął działać, ale tylko przez chwilę — i nie chciałem zmieniać stężenia roztowru, zanim będzie pewien pomiarów mostekm.
+
+[Notobook python](./eclz-static-rlc.ipynb.ipynb)
