@@ -3,8 +3,6 @@
 - Data Example [↪](./measurement/example.csv)
 - Wykres Example [↪](http://www.sqrt.pl/view/?https://raw.githubusercontent.com/Xaeian/umg/master/measurement/example.json)
 
-# Elektrolizer PH
-
 #### Pomiar PH za pomocą sądy
 
 Pomiar pH został zrealizowany za pomocą sondy przemysłowej [H-101 pH electrode](https://wiki.dfrobot.com/Industrial_pH_electrode_SKU_FIT0348_) oraz przetwornika (układu wzmacniającego) [DF-Robot PH-meter](https://wiki.dfrobot.com/PH_meter_SKU__SEN0161_). Na wyjściu przetwornika uzyskujemy sygnał w zakresie od GND `0V` do napięcia zasilana `3.3V`. Zależność między **pH** roztworu, a **napięciem [V]** powinna być liniowa. Do kalibracji sondy używamy trzech roztworów buforowych:
@@ -186,7 +184,7 @@ pH = 14 - pOH
 np.disp(pH)
 ```
 
-Dla tak mocno stężonego kwasu **pH** wynosi **15.313**
+Dla tak mocno stężonego kwasu **pH** wynosi **15.313g**
 Parametryzacja (zmiana na wektor) zmiennej `mKOH` pozwoli wyrysować zależność pH od stężenia procentowego
 
 ```py
