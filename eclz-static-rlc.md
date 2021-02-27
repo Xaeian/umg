@@ -102,4 +102,4 @@ Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję
 
 Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to wynika, ale jak trochę rozładowałem elektrolizer, to zaczął działać, ale tylko przez chwilę — i nie chciałem zmieniać stężenia roztowru, zanim będzie pewien pomiarów mostekm.
 
-[Notobook python](./eclz-static-rlc.ipynb.ipynb)
+[Notobook python](./jupyter/eclz-static-rlc.ipynb)
