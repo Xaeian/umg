@@ -95,7 +95,7 @@ W kolejnym pomiarze zostało odmierzone 20g KOH i zostało
 | --------: | ----: | -----: | -----: | -----: | -----: | ----: |
 |       0.1 | 0.049 | -40.01 | -50.28 | 0.0382 |  20440 | 1.204 |
 |         1 | 0.034 |  41.91 |  3.628 | 0.0254 |  -3115 | 1.116 |
-|        10 | 0.287 |  83.83 |  4.559 |  0.309 | -54.93 | 0.108 |
+|        10 | 0.287 |  83.83 |  4.559 | 0.0309 | -54.93 | 0.108 |
 |       100 | 2.773 |  88.39 |  4.411 |  0.077 | -0.574 | 0.028 |
 |       200 | 5.489 |  88.69 |  4.365 |  0.126 | -0.145 | 0.023 |
 
@@ -137,13 +137,13 @@ W kolejnym pomiarze zostało odmierzone 20g KOH i zostało
 
 **Pomiary mostkiem RLC**
 
-| Freq[kHz] |  Z[Ω] | Fi[°] | Ls[uH] | ESR[Ω] | Cp[uF] |  D[-] |
-| --------: | ----: | ----: | -----: | -----: | -----: | ----: |
-|       0.1 |       |       |        |        |        |       |
-|         1 |       |       |        |        |        |       |
-|        10 | 0.334 | 58.13 |   4.51 |  0.177 | -40.41 | 0.623 |
-|       100 |       |       |        |        |        |       |
-|       200 |       |       |        |        |        |       |
+| Freq[kHz] |  Z[Ω] |  Fi[°] | Ls[uH] | ESR[Ω] | Cp[uF] |   D[-] |
+| --------: | ----: | -----: | -----: | -----: | -----: | -----: |
+|       0.1 | 0.032 | -46.74 | -37.99 | 0.0223 |  35160 |  0.944 |
+|         1 | 0.033 |  57.12 |  4.493 | 0.0181 |   3994 |  0.643 |
+|        10 | 0.305 |  85.01 |  4.842 | 0.0265 | -51.93 |  0.087 |
+|       100 | 2.933 |  88.41 |  4.666 | 0.0806 | -0.542 | 0.0275 |
+|       200 | 5.800 |  88.67 |  4.615 | 0.1356 | -0.137 | 0.0232 |
 
 **Pomiary statyczne**
 
@@ -191,6 +191,18 @@ Widać, że stężenie nie ma wpływu na tę zależność — po prostu wraz ze 
 ![ohm](./jupyter/png/eclz-static-ohm.png)
 
 Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję. Może to oznaczać, że bardziej wydajnie pracuje się na nim z wyższymi prądami. Obserwujemy też, że przy większym stężeniu rezystancja jest mniejsza.
+
+**Rodzina charakterystyk prądowo-napięciowych elektrolizera w funkcji napięcia**
+
+![ohm](./jupyter/png/eclz-static-volt.png)
+
+**Rodzina charakterystyk modułu impedancji (lewo) oraz jej fazy (prawo) elektrolizera w funkcji częstotliwości**
+
+![zfi](./jupyter/png/eclz-rlc-zfi.png)
+
+**Rodzina charakterystyk indukcyjności (lewo) oraz rezystancji szeregowej (prawo) elektrolizera w funkcji częstotliwości**
+
+![lsesr](./jupyter/png/eclz-rlc-lsesr.png)
 
 ## Spostrzerzenia
 
