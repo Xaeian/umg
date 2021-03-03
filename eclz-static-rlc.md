@@ -1,4 +1,43 @@
-# Elektrolizer - Pomiary statyczne + RLC
+# Elektrolizer - Static + RLC
+
+[Notobook python](./jupyter/eclz-static-rlc.ipynb)
+
+## Charakterystyki statyczne
+
+**Rodzina charakterystyk czasu osiągnięcia ciśnienia 0,2 Bara w funkcji napięcia**. Czas osiągnięcia ciśnienia jest powiązany z ilością wyprodukowanego wodoru i tlenu.
+
+![time](./jupyter/png/eclz-static-time.png)
+
+Widać, że stężenie nie ma wpływu na tę zależność — po prostu wraz ze zwiększaniem prądu przepływającego przez elektrolizer zwiększa się ilość wyprodukowanego wodoru.
+
+**Rodzina charakterystyk rezystancji elektrolizera w funkcji napięcia**
+
+![ohm](./jupyter/png/eclz-static-ohm.png)
+
+Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję. Może to oznaczać, że bardziej wydajnie pracuje się na nim z wyższymi prądami. Obserwujemy też, że przy większym stężeniu rezystancja jest mniejsza.
+
+**Rodzina charakterystyk prądowo-napięciowych elektrolizera w funkcji napięcia**
+
+![ohm](./jupyter/png/eclz-static-volt.png)
+
+## Charakterystyki RLC
+
+**Rodzina charakterystyk modułu impedancji (lewo) oraz jej fazy (prawo) elektrolizera w funkcji częstotliwości**
+
+![zfi](./jupyter/png/eclz-rlc-zfi.png)
+
+**Rodzina charakterystyk indukcyjności (lewo) oraz rezystancji szeregowej (prawo) elektrolizera w funkcji częstotliwości**
+
+![lsesr](./jupyter/png/eclz-rlc-lsesr.png)
+
+## Spostrzerzenia
+
+- Podczas zmiany punktu pracy prąd spada, a napięcie rośnie, co oznacza, że rezystancja elektrolizera również się zmienia.
+- Ciekawą obserwacją jest, że podczas zwalniania zaworu prąd znacznie rośnie, a potem powoli spada. Może wyższe ciśnienie prowadzi, do zwiększenia rezystancji elektrolizera zmniejszając produkcję. Jednak podczas pomiaru przepływomierzem (bez zmiany ciśnienia) można było zaobserwować wahania przy zmianie punktu pracy. Tą zależność będzie można wyłapać za pomocą pomiarów rejestrowanych automatycznie w czasie rzeczywistym.
+
+Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to wynika, ale jak trochę rozładowałem elektrolizer, to zaczął działać, ale tylko przez chwilę — i nie chciałem zmieniać stężenia roztowru, zanim będzie pewien pomiarów mostekm.
+
+## Pomiary
 
 ### Stary roztwór KOH (nieznzne stężenie) 07.09.2020
 
@@ -179,36 +218,3 @@ W kolejnym pomiarze zostało odmierzone 20g KOH i zostało
 |  61.7 | 4.74 | 00:36 |
 |  61.7 | 4.84 | 00:36 |
 |  73.5 | 4.90 | 00:28 |
-
-**Rodzina charakterystyk czasu osiągnięcia ciśnienia 0,2 Bara w funkcji napięcia**. Czas osiągnięcia ciśnienia jest powiązany z ilością wyprodukowanego wodoru i tlenu.
-
-![time](./jupyter/png/eclz-static-time.png)
-
-Widać, że stężenie nie ma wpływu na tę zależność — po prostu wraz ze zwiększaniem prądu przepływającego przez elektrolizer zwiększa się ilość wyprodukowanego wodoru.
-
-**Rodzina charakterystyk rezystancji elektrolizera w funkcji napięcia**
-
-![ohm](./jupyter/png/eclz-static-ohm.png)
-
-Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję. Może to oznaczać, że bardziej wydajnie pracuje się na nim z wyższymi prądami. Obserwujemy też, że przy większym stężeniu rezystancja jest mniejsza.
-
-**Rodzina charakterystyk prądowo-napięciowych elektrolizera w funkcji napięcia**
-
-![ohm](./jupyter/png/eclz-static-volt.png)
-
-**Rodzina charakterystyk modułu impedancji (lewo) oraz jej fazy (prawo) elektrolizera w funkcji częstotliwości**
-
-![zfi](./jupyter/png/eclz-rlc-zfi.png)
-
-**Rodzina charakterystyk indukcyjności (lewo) oraz rezystancji szeregowej (prawo) elektrolizera w funkcji częstotliwości**
-
-![lsesr](./jupyter/png/eclz-rlc-lsesr.png)
-
-## Spostrzerzenia
-
-- Podczas zmiany punktu pracy prąd spada, a napięcie rośnie, co oznacza, że rezystancja elektrolizera również się zmienia.
-- Ciekawą obserwacją jest, że podczas zwalniania zaworu prąd znacznie rośnie, a potem powoli spada. Może wyższe ciśnienie prowadzi, do zwiększenia rezystancji elektrolizera zmniejszając produkcję. Jednak podczas pomiaru przepływomierzem (bez zmiany ciśnienia) można było zaobserwować wahania przy zmianie punktu pracy. Tą zależność będzie można wyłapać za pomocą pomiarów rejestrowanych automatycznie w czasie rzeczywistym.
-
-Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to wynika, ale jak trochę rozładowałem elektrolizer, to zaczął działać, ale tylko przez chwilę — i nie chciałem zmieniać stężenia roztowru, zanim będzie pewien pomiarów mostekm.
-
-[Notobook python](./jupyter/eclz-static-rlc.ipynb)
