@@ -26,7 +26,11 @@ Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję
 
 ![zfi](./jupyter/png/eclz-rlc-zfi.png)
 
+W przypadku większego stężenia KOH zmiana charakteru elektrolizera z Pojemnościowego na Indukcyjny przebiega gwałtowniej.
+
 **Rodzina charakterystyk indukcyjności (lewo) oraz rezystancji szeregowej (prawo) elektrolizera w funkcji częstotliwości**
+
+Wraz z wzrostem stężenia KOH zwiększa się indukcyjność elektrolizera
 
 ![lsesr](./jupyter/png/eclz-rlc-lsesr.png)
 
@@ -216,5 +220,55 @@ W kolejnym pomiarze zostało odmierzone 20g KOH i zostało
 | 41.60 | 4.42 | 00:54 |
 | 50.50 | 4.57 | 00:44 |
 |  61.7 | 4.74 | 00:36 |
-|  61.7 | 4.84 | 00:36 |
 |  73.5 | 4.90 | 00:28 |
+
+### Roztwór KOH ~20‰
+
+**Pomiary mostkiem RLC**
+
+| Freq[kHz] |  Z[Ω] |  Fi[°] | Ls[uH] | ESR[Ω] |  Cp[uF] |   D[-] |
+| --------: | ----: | -----: | -----: | -----: | ------: | -----: |
+|       0.1 | 0.031 | -54.87 | -45.72 | 0.0216 |   35325 | 0.7399 |
+|         1 | 0.030 |  56.99 |  4.032 | 0.0165 |   -4417 | 0.6531 |
+|        10 | 0.284 |  85.13 |  4.495 | 0.0245 |  -55.87 | 0.0855 |
+|       100 | 2.734 |  88.55 |  4.345 | 0.0684 | -0.5826 | 0.0249 |
+|       200 | 5.413 |  88.79 |  4.306 | 0.1139 | -0.1471 | 0.0210 |
+
+**Pomiary statyczne**
+
+|  I[A] |  U[V] |  Time |
+| ----: | ----: | ----: |
+|  0.07 |  1.33 |     - |
+|  0.10 |  1.41 |     - |
+|  0.15 |  1.48 |     - |
+|  0.21 |  1.55 |     - |
+|  0.31 |  1.66 |     - |
+|  0.50 |  1.88 |     - |
+|  0.76 |  1.99 |     - |
+|  1.20 |  2.09 |     - |
+|  1.49 |  2.14 |     - |
+|  2.00 |  2.23 |     - |
+|  2.49 |  2.31 |     - |
+|  3.01 |  2.39 |     - |
+|  3.49 |  2.47 |     - |
+|  4.04 |  2.56 |     - |
+|  4.55 |  2.64 |     - |
+|  4.71 |  2.68 | 17:28 |
+|  5.46 |  3.23 | 14:12 |
+|  6.55 |  3.44 | 11:07 |
+|  7.85 |  3.59 | 08:19 |
+| 10.01 |  3.69 | 05:58 |
+| 12.07 |  3.77 | 04:27 |
+| 14.03 |  3.82 | 03:36 |
+| 17.13 |  3.89 | 02:54 |
+| 20.08 |  3.95 | 02:18 |
+| 23.15 |  4.01 | 01:56 |
+| 26.19 |  4.06 | 01:41 |
+| 30.09 |  4.11 | 01:25 |
+| 34.11 |  4.18 | 01:12 |
+| 39.85 |  4.26 | 01:02 |
+| 45.20 |  4.34 | 00:53 |
+| 50.30 | 4.415 | 00:46 |
+| 60.20 |  4.55 | 00:38 |
+| 69.90 |  4.69 | 00:33 |
+| 80.50 |  4.83 | 00:28 |
