@@ -30,9 +30,9 @@ W przypadku większego stężenia KOH zmiana charakteru elektrolizera z Pojemno�
 
 **Rodzina charakterystyk indukcyjności (lewo) oraz rezystancji szeregowej (prawo) elektrolizera w funkcji częstotliwości**
 
-Wraz z wzrostem stężenia KOH zwiększa się indukcyjność elektrolizera
-
 ![lsesr](./jupyter/png/eclz-rlc-lsesr.png)
+
+Wraz z wzrostem stężenia KOH zwiększa się indukcyjność elektrolizera
 
 ## Spostrzerzenia
 
