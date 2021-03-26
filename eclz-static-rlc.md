@@ -2,13 +2,27 @@
 
 [Notobook python](./jupyter/eclz-static-rlc.ipynb)
 
+## Charakterystyki stężenia
+
+**Rodzina charakterystyk napięcia w funkcji stężenia**
+
+![time](./jupyter/png/eclz-static-concentration-volt.png)
+
+**Rodzina charakterystyk czasu osiągnięcia ciśnienia 0,2 Bara w funkcji stężenia**
+
+![time](./jupyter/png/eclz-static-concentration-time.png)
+
+Wydaje się, że najlepszy rezultat osiągamy przy stężeniu **1%**, ale wtedy mamy znacznie większe napięcie. Wydaje mi się, że KOH jest na tyle mocną zasadą, że nawet przy małych stężeniach elektroliza przebiega wydajnie. Możliwe, że dla znacznie większych prądów brakowałoby nośników.
+
 ## Charakterystyki statyczne
 
 **Rodzina charakterystyk czasu osiągnięcia ciśnienia 0,2 Bara w funkcji napięcia**. Czas osiągnięcia ciśnienia jest powiązany z ilością wyprodukowanego wodoru i tlenu.
 
 ![time](./jupyter/png/eclz-static-time.png)
 
-Widać, że stężenie nie ma wpływu na tę zależność — po prostu wraz ze zwiększaniem prądu przepływającego przez elektrolizer zwiększa się ilość wyprodukowanego wodoru.
+Zwężenie zakresu dla dużych prądów
+
+![time2](./jupyter/png/eclz-static-time-ylim.png)
 
 **Rodzina charakterystyk rezystancji elektrolizera w funkcji napięcia**
 
@@ -18,7 +32,9 @@ Widzimy, że dla większych prądów elektrolizer posiada mniejszą rezystancję
 
 **Rodzina charakterystyk prądowo-napięciowych elektrolizera w funkcji napięcia**
 
-![ohm](./jupyter/png/eclz-static-volt.png)
+![volt](./jupyter/png/eclz-static-volt.png)
+
+Skok koło **5V** jest spowodowany rozpoczęciem pomiarów czasu i znacznie dużym czasem pracy elektrolizera. Podczas pracy Charakterystyka elektrolizera się zmienia.
 
 ## Charakterystyki RLC
 
@@ -57,18 +73,18 @@ Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to
 
 **Pomiary statyczne**
 
-|  I[A] | U[V] | Time |  R[Ω] |
-| ----: | ---: | ---: | ----: |
-|   4.9 | 2.27 | 8:57 | 0.463 |
-|  7.97 | 2.46 | 5:10 | 0.309 |
-|  11.9 | 2.86 | 3:27 |  0.24 |
-| 16.46 | 3.22 | 2:36 | 0.196 |
-| 20.15 | 3.45 |  2:2 | 0.171 |
-| 25.03 | 3.75 | 1:39 |  0.15 |
-| 29.96 | 3.86 | 1:13 | 0.129 |
-| 35.03 | 3.93 |  1:0 | 0.112 |
-| 39.58 | 4.02 | 0:50 | 0.102 |
-| 44.79 | 4.15 | 0:42 | 0.093 |
+|  I[A] | U[V] |  Time |  R[Ω] |
+| ----: | ---: | ----: | ----: |
+|   4.9 | 2.27 | 08:57 | 0.463 |
+|  7.97 | 2.46 | 05:10 | 0.309 |
+|  11.9 | 2.86 | 03:27 |  0.24 |
+| 16.46 | 3.22 | 02:36 | 0.196 |
+| 20.15 | 3.45 | 02:02 | 0.171 |
+| 25.03 | 3.75 | 01:39 |  0.15 |
+| 29.96 | 3.86 | 01:13 | 0.129 |
+| 35.03 | 3.93 |  01:0 | 0.112 |
+| 39.58 | 4.02 | 00:50 | 0.102 |
+| 44.79 | 4.15 | 00:42 | 0.093 |
 
 ### Woda destylowana (szczątkowe stężenie)
 
@@ -317,7 +333,7 @@ Gdy elektrolizer zbyt długo nie pracuje pomiary pływają i nie wskazują na ż
 |  3.01 |  2.12 |     - |
 |  3.54 |  2.17 |     - |
 |  4.07 |  2.21 |     - |
-|  4.50 | 2.245 |     - |
+|  4.50 | 2.225 |     - |
 |  4.75 |  2.32 | 20:50 |
 |  5.45 |  2.53 | 17:20 |
 |  8.05 |  2.82 | 10:49 |
