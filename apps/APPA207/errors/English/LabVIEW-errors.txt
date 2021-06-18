@@ -1,0 +1,1038 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+LabVIEW error file
+</nicomment>
+<nierror code="-1074003967">
+LabVIEW:  (Hex 0xBFFC0001) Parameter 1 out of range
+</nierror>
+<nierror code="-1074003966">
+LabVIEW:  (Hex 0xBFFC0002) Parameter 2 out of range
+</nierror>
+<nierror code="-1074003965">
+LabVIEW:  (Hex 0xBFFC0003) Parameter 3 out of range
+</nierror>
+<nierror code="-1074003964">
+LabVIEW:  (Hex 0xBFFC0004) Parameter 4 out of range
+</nierror>
+<nierror code="-1074003963">
+LabVIEW:  (Hex 0xBFFC0005) Parameter 5 out of range
+</nierror>
+<nierror code="-1074003962">
+LabVIEW:  (Hex 0xBFFC0006) Parameter 6 out of range
+</nierror>
+<nierror code="-1074003961">
+LabVIEW:  (Hex 0xBFFC0007) Parameter 7 out of range
+</nierror>
+<nierror code="-1074003960">
+LabVIEW:  (Hex 0xBFFC0008) Parameter 8 out of range
+</nierror>
+<nierror code="-1074003952">
+LabVIEW:  (Hex 0xBFFC0010) Error interpreting instrument response
+</nierror>
+<nierror code="-1074003951">
+LabVIEW:  (Hex 0xBFFC0011) Identification Query Failed
+</nierror>
+<nierror code="-1074003950">
+LabVIEW:  (Hex 0xBFFC0012) Error intepreting the instrument's response
+</nierror>
+<nierror code="-1805">
+LabVIEW:  Start index out of range
+</nierror>
+<nierror code="-1804">
+LabVIEW:  Start index, value, or tolerance is NaN
+</nierror>
+<nierror code="-1803">
+LabVIEW:  Waveform X axis value requested is out of range.
+</nierror>
+<nierror code="-1802">
+LabVIEW:  Waveforms have different dt values.
+</nierror>
+<nierror code="-1801">
+LabVIEW:  Duration input is not an integer multiple of dt.  Value was coerced to nearest integer multiple of dt.
+</nierror>
+<nierror code="-1800">
+LabVIEW:  Start time input is not an integer multiple of dt.  Value was coerced to nearest integer multiple of dt.
+</nierror>
+<nierror code="-1719">
+LabVIEW:  Index is out of range in a put operation.
+</nierror>
+<nierror code="-1718">
+LabVIEW:  The contents of the reply you are accessing have not arrived yet.
+</nierror>
+<nierror code="-1717">
+LabVIEW:  No handler in the dispatch tables fits the parameters to AEGetEventHandler or AEGetCoercionHandler.
+</nierror>
+<nierror code="-1716">
+LabVIEW:  Unknown Apple event address type.
+</nierror>
+<nierror code="-1715">
+LabVIEW:  Handler did not get all required parameters.
+</nierror>
+<nierror code="-1714">
+LabVIEW:  Wrong keyword for a special function.
+</nierror>
+<nierror code="-1713">
+LabVIEW:  No user interaction allowed.
+</nierror>
+<nierror code="-1712">
+LabVIEW:  Apple event timed out.
+</nierror>
+<nierror code="-1711">
+LabVIEW:  User canceled out of wait loop for reply or receipt.
+</nierror>
+<nierror code="-1710">
+LabVIEW:  Invalid sending mode was passed.
+</nierror>
+<nierror code="-1709">
+LabVIEW:  AEResetTimer was passed an invalid reply parameter.
+</nierror>
+<nierror code="-1708">
+LabVIEW:  AEResetTimer was passed an invalid reply parameter.
+</nierror>
+<nierror code="-1707">
+LabVIEW:  The event is not an Apple event.
+</nierror>
+<nierror code="-1706">
+LabVIEW:  Need a newer version of Apple Event Manager.
+</nierror>
+<nierror code="-1705">
+LabVIEW:  Operation involving a list item failed.
+</nierror>
+<nierror code="-1704">
+LabVIEW:  Not a valid descriptor record.
+</nierror>
+<nierror code="-1703">
+LabVIEW:  Wrong descriptor type.
+</nierror>
+<nierror code="-1702">
+LabVIEW:  Data in an Apple event could not be read.
+</nierror>
+<nierror code="-1701">
+LabVIEW:  Descriptor record was not found.
+</nierror>
+<nierror code="-1700">
+LabVIEW:  Data could not be coerced to the requested descriptor type.
+</nierror>
+<nierror code="-1300">
+LabVIEW:  Instrument-specific error.
+</nierror>
+<nierror code="-1260">
+LabVIEW:  Function not supported by controller.
+</nierror>
+<nierror code="-1252">
+LabVIEW:  Error accessing VXI address.
+</nierror>
+<nierror code="-1251">
+LabVIEW:  Error unmapping VXI address.
+</nierror>
+<nierror code="-1250">
+LabVIEW:  Error mapping VXI address.
+</nierror>
+<nierror code="-1240">
+LabVIEW:  Instrument timed out.
+</nierror>
+<nierror code="-1239">
+LabVIEW:  Error in configuring timeout.
+</nierror>
+<nierror code="-1236">
+LabVIEW:  Error interpreting instrument response.
+</nierror>
+<nierror code="-1234">
+LabVIEW:  Error placing instrument in local mode.
+</nierror>
+<nierror code="-1232">
+LabVIEW:  Instrument not initialized.
+</nierror>
+<nierror code="-1231">
+LabVIEW:  Error reading from instrument.
+</nierror>
+<nierror code="-1230">
+LabVIEW:  Error writing to instrument.
+</nierror>
+<nierror code="-1229">
+LabVIEW:  Error reading from instrument to file.
+</nierror>
+<nierror code="-1228">
+LabVIEW:  Error writing to instrument from file.
+</nierror>
+<nierror code="-1226">
+LabVIEW:  Error polling instrument.
+</nierror>
+<nierror code="-1225">
+LabVIEW:  Error triggering instrument.
+</nierror>
+<nierror code="-1224">
+LabVIEW:  Error clearing instrument.
+</nierror>
+<nierror code="-1223">
+LabVIEW:  Instrument identification query failed.
+</nierror>
+<nierror code="-1221">
+LabVIEW:  Unable to close instrument.
+</nierror>
+<nierror code="-1220">
+LabVIEW:  Unable to open instrument.
+</nierror>
+<nierror code="-1219">
+LabVIEW:  Error setting attribute.
+</nierror>
+<nierror code="-1218">
+LabVIEW:  Error getting attribute.
+</nierror>
+<nierror code="-1215">
+LabVIEW:  Error closing instrument.
+</nierror>
+<nierror code="-1210">
+LabVIEW:  Parameter out of range.
+</nierror>
+<nierror code="-1205">
+LabVIEW:  Invalid Instrument Handle.
+</nierror>
+<nierror code="-1202">
+LabVIEW:  Unable to initialize interface or instrument.
+</nierror>
+<nierror code="-1201">
+LabVIEW:  Error finding instruments.
+</nierror>
+<nierror code="-1200">
+LabVIEW:  Invalid syntax string.
+</nierror>
+<nierror code="-932">
+LabVIEW:  Destination port requires authentication.
+</nierror>
+<nierror code="-931">
+LabVIEW:  Location name is invalid.
+</nierror>
+<nierror code="-930">
+LabVIEW:  Service method is other than ppcServiceRealTime.
+</nierror>
+<nierror code="-928">
+LabVIEW:  Invalid user reference number.
+</nierror>
+<nierror code="-927">
+LabVIEW:  User's password is wrong.
+</nierror>
+<nierror code="-926">
+LabVIEW:  PPCStart failed because destination did not have an inform pending.
+</nierror>
+<nierror code="-925">
+LabVIEW:  An error has occurred in the network.
+</nierror>
+<nierror code="-924">
+LabVIEW:  Unable to create a new userRefNum.
+</nierror>
+<nierror code="-923">
+LabVIEW:  The default userRefNum does not yet exist.
+</nierror>
+<nierror code="-922">
+LabVIEW:  User has not specified owner name in Sharing Setup Control Panel.
+</nierror>
+<nierror code="-919">
+LabVIEW:  PPCPortRec is invalid.
+</nierror>
+<nierror code="-917">
+LabVIEW:  The session has closed.
+</nierror>
+<nierror code="-916">
+LabVIEW:  The port was closed.
+</nierror>
+<nierror code="-915">
+LabVIEW:  Unable to contact destination application.
+</nierror>
+<nierror code="-914">
+LabVIEW:  A system resource is missing.
+</nierror>
+<nierror code="-913">
+LabVIEW:  User has not named his Macintosh in the Network Setup Control Panel.
+</nierror>
+<nierror code="-912">
+LabVIEW:  Destination rejected the session request.
+</nierror>
+<nierror code="-911">
+LabVIEW:  User name unknown on destination machine.
+</nierror>
+<nierror code="-910">
+LabVIEW:  Another port is already open with this name (perhaps in another application).
+</nierror>
+<nierror code="-909">
+LabVIEW:  Bad parameter or invalid state for this operation.
+</nierror>
+<nierror code="-908">
+LabVIEW:  Invalid session reference number.
+</nierror>
+<nierror code="-907">
+LabVIEW:  PPC Toolbox is unable to create a session.
+</nierror>
+<nierror code="-906">
+LabVIEW:  Port does not exist at destination.
+</nierror>
+<nierror code="-905">
+LabVIEW:  Network activity is currently disabled.
+</nierror>
+<nierror code="-904">
+LabVIEW:  The system is unable to allocate memory. This is a critical error, and you should restart.
+</nierror>
+<nierror code="-903">
+LabVIEW:  Invalid port name. Unable to open port or bad portRefNum.
+</nierror>
+<nierror code="-902">
+LabVIEW:  Invalid or inappropriate locationKindSelector in locationName.
+</nierror>
+<nierror code="-900">
+LabVIEW:  PPC Toolbox has not been initialized.
+</nierror>
+<nierror code="-620">
+LabVIEW:  Networked machine was not found.
+</nierror>
+<nierror code="-619">
+LabVIEW:  Remote registry services not available or remote administration not enabled.
+</nierror>
+<nierror code="-618">
+LabVIEW:  Cannot create a stable subkey under a volatile parent key.
+</nierror>
+<nierror code="-617">
+LabVIEW:  Cannot create a symbolic link in a registry key that already has subkeys or values.
+</nierror>
+<nierror code="-616">
+LabVIEW:  System could not allocate the required space in a registry log.
+</nierror>
+<nierror code="-615">
+LabVIEW:  Illegal operation attempted on a registry key that has been marked for deletion.
+</nierror>
+<nierror code="-614">
+LabVIEW:  The system has attempted to load or restore a file into the registry, but the specified file is not in a registry file format.
+</nierror>
+<nierror code="-613">
+LabVIEW:  An I/O operation initiated by the registry failed unrecoverably. The registry could not read in, or write out, or flush, one of the files that contain the system's image of the registry.
+</nierror>
+<nierror code="-612">
+LabVIEW:  The registry is corrupted. The structure of one of the files that contains registry data is corrupted, or the system's image of the file in memory is corrupted, or the file could not be recovered because the alternate copy or log was absent or corrupted.
+</nierror>
+<nierror code="-611">
+LabVIEW:  One of the files in the registry database had to be recovered by use of a log or alternate copy.  The recovery was successful.
+</nierror>
+<nierror code="-610">
+LabVIEW:  The configuration registry key could not be written.
+</nierror>
+<nierror code="-609">
+LabVIEW:  The configuration registry key could not be read.
+</nierror>
+<nierror code="-608">
+LabVIEW:  The configuration registry key could not be opened.
+</nierror>
+<nierror code="-607">
+LabVIEW:  The configuration registry key is invalid.
+</nierror>
+<nierror code="-606">
+LabVIEW:  The configuration registry database is corrupt.
+</nierror>
+<nierror code="-605">
+LabVIEW:  Attempted to read beyond last key or value.
+</nierror>
+<nierror code="-604">
+LabVIEW:  Remote registry access denied.
+</nierror>
+<nierror code="-603">
+LabVIEW:  Specified key or value does not exist.
+</nierror>
+<nierror code="-602">
+LabVIEW:  Invalid Registry refnum.
+</nierror>
+<nierror code="-601">
+LabVIEW:  Incorrect data type specified.
+</nierror>
+<nierror code="-600">
+LabVIEW:  Undetermined Windows registry error.
+</nierror>
+<nierror code="1">
+LabVIEW:  An input parameter is invalid.
+</nierror>
+<nierror code="2">
+LabVIEW:  Memory full.
+</nierror>
+<nierror code="3">
+LabVIEW:  Out of zone.
+</nierror>
+<nierror code="4">
+LabVIEW:  End of file.
+</nierror>
+<nierror code="5">
+LabVIEW:  File already open.
+</nierror>
+<nierror code="6">
+LabVIEW:  Generic file I/O error.
+</nierror>
+<nierror code="7">
+LabVIEW:  File not found.
+</nierror>
+<nierror code="8">
+LabVIEW:  File permission error.
+</nierror>
+<nierror code="9">
+LabVIEW:  Disk full.
+</nierror>
+<nierror code="10">
+LabVIEW:  Duplicate path.
+</nierror>
+<nierror code="11">
+LabVIEW:  Too many files open.
+</nierror>
+<nierror code="12">
+LabVIEW:  System feature not enabled.
+</nierror>
+<nierror code="13">
+LabVIEW:  Resource file not found.
+</nierror>
+<nierror code="14">
+LabVIEW:  Cannot add resource.
+</nierror>
+<nierror code="15">
+LabVIEW:  Resource not found.
+</nierror>
+<nierror code="16">
+LabVIEW:  Image not found.
+</nierror>
+<nierror code="17">
+LabVIEW:  Image memory error.
+</nierror>
+<nierror code="18">
+LabVIEW:  Pen does not exist.
+</nierror>
+<nierror code="19">
+LabVIEW:  Configuration type invalid.
+</nierror>
+<nierror code="20">
+LabVIEW:  Configuration token not found.
+</nierror>
+<nierror code="21">
+LabVIEW:  Configuration parse error.
+</nierror>
+<nierror code="22">
+LabVIEW:  Configuration memory error.
+</nierror>
+<nierror code="23">
+LabVIEW:  Bad external code format.
+</nierror>
+<nierror code="24">
+LabVIEW:  Bad external code offset.
+</nierror>
+<nierror code="25">
+LabVIEW:  External code not present.
+</nierror>
+<nierror code="26">
+LabVIEW:  Null window.
+</nierror>
+<nierror code="27">
+LabVIEW:  Destroy window error.
+</nierror>
+<nierror code="28">
+LabVIEW:  Null menu.
+</nierror>
+<nierror code="29">
+LabVIEW:  Print aborted.
+</nierror>
+<nierror code="30">
+LabVIEW:  Bad print record.
+</nierror>
+<nierror code="31">
+LabVIEW:  Print driver error.
+</nierror>
+<nierror code="32">
+LabVIEW:  Operating system error during print.
+</nierror>
+<nierror code="33">
+LabVIEW:  Memory error during print.
+</nierror>
+<nierror code="34">
+LabVIEW:  Print dialog error.
+</nierror>
+<nierror code="35">
+LabVIEW:  Generic print error.
+</nierror>
+<nierror code="36">
+LabVIEW:  Invalid device refnum.
+</nierror>
+<nierror code="37">
+LabVIEW:  Device not found.
+</nierror>
+<nierror code="38">
+LabVIEW:  Device parameter error.
+</nierror>
+<nierror code="39">
+LabVIEW:  Device unit error.
+</nierror>
+<nierror code="40">
+LabVIEW:  Can't open device.
+</nierror>
+<nierror code="41">
+LabVIEW:  Device call aborted.
+</nierror>
+<nierror code="42">
+LabVIEW:  Generic error.
+</nierror>
+<nierror code="43">
+LabVIEW:  Operation canceled by user.
+</nierror>
+<nierror code="44">
+LabVIEW:  Object ID too low.
+</nierror>
+<nierror code="45">
+LabVIEW:  Object ID too high.
+</nierror>
+<nierror code="46">
+LabVIEW:  Object not in heap.
+</nierror>
+<nierror code="47">
+LabVIEW:  Unknown heap.
+</nierror>
+<nierror code="48">
+LabVIEW:  Unknown object (invalid DefProc).
+</nierror>
+<nierror code="49">
+LabVIEW:  Unknown object (DefProc not in table).
+</nierror>
+<nierror code="50">
+LabVIEW:  Message out of range.
+</nierror>
+<nierror code="51">
+LabVIEW:  Null method.
+</nierror>
+<nierror code="52">
+LabVIEW:  Unknown message.
+</nierror>
+<nierror code="53">
+LabVIEW:  Manager call not supported.
+</nierror>
+<nierror code="54">
+LabVIEW:  The network address is ill-formed.
+</nierror>
+<nierror code="55">
+LabVIEW:  The network operation is in progress.
+</nierror>
+<nierror code="56">
+LabVIEW:  The network operation exceeded the user-specified or system time limit.
+</nierror>
+<nierror code="57">
+LabVIEW:  The network connection is busy.
+</nierror>
+<nierror code="58">
+LabVIEW:  The network function is not supported.
+</nierror>
+<nierror code="59">
+LabVIEW:  The network is down, unreachable, or has been reset.
+</nierror>
+<nierror code="60">
+LabVIEW:  The specified network address is currently in use.
+</nierror>
+<nierror code="61">
+LabVIEW:  Serial port parity error.
+</nierror>
+<nierror code="61">
+LabVIEW:  The system could not allocate the necessary memory.
+</nierror>
+<nierror code="62">
+LabVIEW:  Serial port overrun error.
+</nierror>
+<nierror code="62">
+LabVIEW:  The system caused the network connection to be aborted.
+</nierror>
+<nierror code="63">
+LabVIEW:  Serial port receive buffer overflow.
+</nierror>
+<nierror code="63">
+LabVIEW:  The network connection was refused by the server.
+</nierror>
+<nierror code="64">
+LabVIEW:  Serial port framing error.
+</nierror>
+<nierror code="64">
+LabVIEW:  The network connection is not established.
+</nierror>
+<nierror code="65">
+LabVIEW:  Serial port timeout; bytes not received at serial port.
+</nierror>
+<nierror code="65">
+LabVIEW:  The network connection is already established.
+</nierror>
+<nierror code="66">
+LabVIEW:  The network connection was closed by the peer.
+</nierror>
+<nierror code="67">
+LabVIEW:  Interapplication Manager initialization error.
+</nierror>
+<nierror code="68">
+LabVIEW:  Bad occurrence.
+</nierror>
+<nierror code="69">
+LabVIEW:  Handler does not know what occurrence to wait for.
+</nierror>
+<nierror code="70">
+LabVIEW:  Occurrence queue overflow.
+</nierror>
+<nierror code="71">
+LabVIEW:  File datalog type conflict.
+</nierror>
+<nierror code="72">
+LabVIEW:  Semaphore not signaled.
+</nierror>
+<nierror code="73">
+LabVIEW:  Interapplication Manager unrecognized type error.
+</nierror>
+<nierror code="74">
+LabVIEW:  Memory corrupt.
+</nierror>
+<nierror code="75">
+LabVIEW:  Failed to make temporary DLL.
+</nierror>
+<nierror code="76">
+LabVIEW:  Old CIN version.
+</nierror>
+<nierror code="81">
+LabVIEW:  Format specifier type mismatch
+</nierror>
+<nierror code="82">
+LabVIEW:  Unknown format specifier
+</nierror>
+<nierror code="83">
+LabVIEW:  Too few format specifiers
+</nierror>
+<nierror code="84">
+LabVIEW:  Too many format specifiers
+</nierror>
+<nierror code="85">
+LabVIEW:  Scan failed
+</nierror>
+<nierror code="87">
+LabVIEW:  Error converting to variant.
+</nierror>
+<nierror code="88">
+LabVIEW:  Run-time menu error.
+</nierror>
+<nierror code="89">
+LabVIEW:  VI's password tampered.
+</nierror>
+<nierror code="90">
+LabVIEW:  Variant attribute not found.
+</nierror>
+<nierror code="91">
+LabVIEW:  Incompatible variant data type.
+</nierror>
+<nierror code="92">
+LabVIEW:  ActiveX Event Data was not available.
+</nierror>
+<nierror code="93">
+LabVIEW:  ActiveX Event Information was not available.
+</nierror>
+<nierror code="94">
+LabVIEW:  The Occurence associated with the ActiveX Event was not Found.
+</nierror>
+<nierror code="95">
+LabVIEW:  The ActiveX Event Queue could not be created.
+</nierror>
+<nierror code="96">
+LabVIEW:  ActiveX Event Data was not available.
+</nierror>
+<nierror code="97">
+LabVIEW:  Null Refnum was passed in as input.
+</nierror>
+<nierror code="102">
+LabVIEW:  IVI Invalid downcast
+</nierror>
+<nierror code="103">
+LabVIEW:  IVI No Class Session Opened
+</nierror>
+<nierror code="108">
+LabVIEW:  Singlecast connections can not send to multicast addresses.
+</nierror>
+<nierror code="109">
+LabVIEW:  Multicast connections can not send to singlecast addresses.
+</nierror>
+<nierror code="110">
+LabVIEW:  Specified IP address not in multicast address range.
+</nierror>
+<nierror code="111">
+LabVIEW:  Attempt to write to read-only multicast connection.
+</nierror>
+<nierror code="112">
+LabVIEW:  Attempt to read from write-only multicast connection.
+</nierror>
+<nierror code="1000">
+LabVIEW:  The VI is not in a state compatible with this operation.
+</nierror>
+<nierror code="1001">
+LabVIEW:  The VI's front panel is not open.
+</nierror>
+<nierror code="1002">
+LabVIEW:  The VI cannot run because it has a front panel control in an error state.
+</nierror>
+<nierror code="1003">
+LabVIEW:  The VI is not executable.
+</nierror>
+<nierror code="1004">
+LabVIEW:  The VI is not in memory.
+</nierror>
+<nierror code="1005">
+LabVIEW:  VI execution has been disabled in VI Properties.
+</nierror>
+<nierror code="1006">
+LabVIEW:  FPDCO on connector pane thinks it is constant.
+</nierror>
+<nierror code="1007">
+LabVIEW:  No IP Rec in Summary.
+</nierror>
+<nierror code="1008">
+LabVIEW:  Cannot load connector pane.
+</nierror>
+<nierror code="1009">
+LabVIEW:  Variant tag out of range.
+</nierror>
+<nierror code="1010">
+LabVIEW:  No default or operate data.
+</nierror>
+<nierror code="1011">
+LabVIEW:  VI Creation failed.
+</nierror>
+<nierror code="1012">
+LabVIEW:  Cannot load Block Diagram Heap.
+</nierror>
+<nierror code="1013">
+LabVIEW:  Cannot load Front Panel Heap.
+</nierror>
+<nierror code="1014">
+LabVIEW:  Linker error.
+</nierror>
+<nierror code="1015">
+LabVIEW:  Printer is not responding.  Check printer configuration.
+</nierror>
+<nierror code="1016">
+LabVIEW:  Cannot load History.
+</nierror>
+<nierror code="1017">
+LabVIEW:  VI has been modified on disk since it was last loaded or saved.
+</nierror>
+<nierror code="1018">
+LabVIEW:  Unspecified error occurred.
+</nierror>
+<nierror code="1019">
+LabVIEW:  Untitled SubVIs exist.
+</nierror>
+<nierror code="1020">
+LabVIEW:  This CIN can only be invoked from a registered wizard.
+</nierror>
+<nierror code="1021">
+LabVIEW:  Illegal Object Id passed to wizard CIN.
+</nierror>
+<nierror code="1022">
+LabVIEW:  Wizard Template not found.
+</nierror>
+<nierror code="1023">
+LabVIEW:  Wizard template does not have a diagram.
+</nierror>
+<nierror code="1024">
+LabVIEW:  Call Instrument aborted.
+</nierror>
+<nierror code="1025">
+LabVIEW:  Application Reference is invalid.
+</nierror>
+<nierror code="1026">
+LabVIEW:  VI Reference is invalid.
+</nierror>
+<nierror code="1027">
+LabVIEW:  Reference can not be reserved as requested or is in improper reservation mode for requested operation.
+</nierror>
+<nierror code="1028">
+LabVIEW:  Attribute selector is invalid.
+</nierror>
+<nierror code="1029">
+LabVIEW:  VI Server property is read-only.
+</nierror>
+<nierror code="1030">
+LabVIEW:  VI Reference is already reserved for editing.
+</nierror>
+<nierror code="1031">
+LabVIEW:  VI Reference type does not match VI connector pane.
+</nierror>
+<nierror code="1032">
+LabVIEW:  VI Server access denied.
+</nierror>
+<nierror code="1033">
+LabVIEW:  Bad run-time menu file version.
+</nierror>
+<nierror code="1034">
+LabVIEW:  Bad run-time menu file.
+</nierror>
+<nierror code="1035">
+LabVIEW:  Operation is invalid for this type of VI.
+</nierror>
+<nierror code="1036">
+LabVIEW:  Method selector is invalid.
+</nierror>
+<nierror code="1037">
+LabVIEW:  Incompatible VI Server protocol version.
+</nierror>
+<nierror code="1038">
+LabVIEW:  Required parameter missing.
+</nierror>
+<nierror code="1039">
+LabVIEW:  VI was aborted.
+</nierror>
+<nierror code="1040">
+LabVIEW:  VI is password protected.
+</nierror>
+<nierror code="1041">
+LabVIEW:  Incorrect password
+</nierror>
+<nierror code="1042">
+LabVIEW:  Attempted recursive call.
+</nierror>
+<nierror code="1043">
+LabVIEW:  Feature not supported in this application.
+</nierror>
+<nierror code="1044">
+LabVIEW:  VI is locked.
+</nierror>
+<nierror code="1045">
+LabVIEW:  Null Refnum passed to Close Reference.
+</nierror>
+<nierror code="1046">
+LabVIEW:  LabVIEW can't initialize the script server.
+</nierror>
+<nierror code="1047">
+LabVIEW:  LabVIEW can't set a variable to the script server.
+</nierror>
+<nierror code="1048">
+LabVIEW:  LabVIEW can't get a variable from script server.
+</nierror>
+<nierror code="1049">
+LabVIEW:  LabVIEW can't set script text to the script server.
+</nierror>
+<nierror code="1050">
+LabVIEW:  The server failed to execute the script sent by LabVIEW. An error message has been received.
+</nierror>
+<nierror code="1051">
+LabVIEW:  A VI of that name already exists in memory.
+</nierror>
+<nierror code="1052">
+LabVIEW:  The VI name is invalid.
+</nierror>
+<nierror code="1053">
+LabVIEW:  At run time, LabVIEW can't find script support dll
+</nierror>
+<nierror code="1054">
+LabVIEW:  The specified object was not found.
+</nierror>
+<nierror code="1055">
+LabVIEW:  Object reference is invalid.
+</nierror>
+<nierror code="1056">
+LabVIEW:  Specified object is not scriptable in this version.
+</nierror>
+<nierror code="1057">
+LabVIEW:  Type mismatch: Object cannot be typecasted to the specified type.
+</nierror>
+<nierror code="1058">
+LabVIEW:  Specified property not found.
+</nierror>
+<nierror code="1059">
+LabVIEW:  Unexpected file type.
+</nierror>
+<nierror code="1060">
+LabVIEW:  Object cannot contain(own) the specified object.
+</nierror>
+<nierror code="1061">
+LabVIEW:  Unable to create new object.
+</nierror>
+<nierror code="1062">
+LabVIEW:  Specified objects cannot be wired together.
+</nierror>
+<nierror code="1063">
+LabVIEW:  Specified terminal not found in the object.
+</nierror>
+<nierror code="1064">
+LabVIEW:  The specified VI may not be saved for previous because it resides in the VI.LIB directory.
+</nierror>
+<nierror code="1065">
+LabVIEW:  The path to the VI to save is an empty or relative path.  It must be an absolute path.
+</nierror>
+<nierror code="1071">
+LabVIEW:  Specified method not found.
+</nierror>
+<nierror code="1072">
+LabVIEW:  This property or method is not yet implemented.
+</nierror>
+<nierror code="1073">
+LabVIEW:  This property is writable or this method is available only when the VI is in edit mode.
+</nierror>
+<nierror code="1074">
+LabVIEW:  Cannot create a control/indicator for the specified terminal.
+</nierror>
+<nierror code="1075">
+LabVIEW:  Cannot create a constant for the specified terminal.
+</nierror>
+<nierror code="1076">
+LabVIEW:  VI is not debuggable.
+</nierror>
+<nierror code="1077">
+LabVIEW:  Invalid property value.
+</nierror>
+<nierror code="1082">
+LabVIEW:  Not valid for strict type definitions.
+</nierror>
+<nierror code="1083">
+LabVIEW:  Invalid connector pane pattern.
+</nierror>
+<nierror code="1084">
+LabVIEW:  Specified control or indicator cannot be hooked up to the connector pane.
+</nierror>
+<nierror code="1085">
+LabVIEW:  Invalid connector terminal.
+</nierror>
+<nierror code="1086">
+LabVIEW:  Wrong Control Type
+</nierror>
+<nierror code="1087">
+LabVIEW:  No DataSocket Available
+</nierror>
+<nierror code="1088">
+LabVIEW:  Bad value for parameter.
+</nierror>
+<nierror code="1090">
+LabVIEW:  Specified object cannot be moved.
+</nierror>
+<nierror code="1091">
+LabVIEW:  VI Server or client received an unrecognized message.
+</nierror>
+<nierror code="1094">
+LabVIEW:  Queue and notifier references of the same name must be obtained using the same data type.
+</nierror>
+<nierror code="1096">
+LabVIEW:  Cannot prepare non-reentrant VI for reentrant run.
+</nierror>
+<nierror code="1100">
+LabVIEW:  No object of that name was found. No reference could be returned.
+</nierror>
+<nierror code="1101">
+LabVIEW:  Insufficient priviliges to read, write, or create an item in the DataSocket Server.
+</nierror>
+<nierror code="1102">
+LabVIEW:  The string input terminal is unwired.
+</nierror>
+<nierror code="1103">
+LabVIEW:  The XML tag describing the type of data is not recognized.
+</nierror>
+<nierror code="1104">
+LabVIEW:  No end tag was found for an XML start/end tag pair.
+</nierror>
+<nierror code="1105">
+LabVIEW:  An unknown or unexpected XML tag was discovered.
+</nierror>
+<nierror code="1106">
+LabVIEW:  The XML tag describing the type of data does not match the wired type.
+</nierror>
+<nierror code="1107">
+LabVIEW:  The XML enumerated type choice(s) does not match the wired type.
+</nierror>
+<nierror code="1108">
+LabVIEW:  XML value text is illegal or out of range for type and/or format.
+</nierror>
+<nierror code="1109">
+LabVIEW:  Unsupported data type.
+</nierror>
+<nierror code="1110">
+LabVIEW:  No indicator is wired to the output terminal.
+</nierror>
+<nierror code="14001">
+LabVIEW:  Invalid refnum.
+</nierror>
+<nierror code="14002">
+LabVIEW:  Invalid string.
+</nierror>
+<nierror code="14003">
+LabVIEW:  A request for a synchronous advise transaction has timed out.
+</nierror>
+<nierror code="14004">
+LabVIEW:  The response to the transaction caused the DDE_FBUSY bit to be set.
+</nierror>
+<nierror code="14005">
+LabVIEW:  A request for a synchronous data transaction has timed out.
+</nierror>
+<nierror code="14006">
+LabVIEW:  The DDEML function was called without first calling the DdeInitialize function or an invalid instance identifier was pass to a DDEML function.
+</nierror>
+<nierror code="14007">
+LabVIEW:  An application initialized as APPCLASS_MONITOR has attempted to perform a DDE transaction, or an application initialized as APPCMD_CLIENTONLY has attempted to perform server transactions.
+</nierror>
+<nierror code="14008">
+LabVIEW:  A request for a synchronous execute transaction has timed out.
+</nierror>
+<nierror code="14009">
+LabVIEW:  A parameter failed to be validated by the DDEML:  e.g., the data handle is initialized with a different name-item  or different clipboard data format than that required; the application used a client-side conversation handle with a server-side function, or vice-versa; the application used a freed data or string handle; or more than one instance of the application used the same object.
+</nierror>
+<nierror code="14010">
+LabVIEW:  A DDEML application has created a prolonged race condition (where the server application outruns the client), causing large amounts of memory to be consumed.
+</nierror>
+<nierror code="14011">
+LabVIEW:  A memory allocation failed.
+</nierror>
+<nierror code="14012">
+LabVIEW:  A transaction failed.
+</nierror>
+<nierror code="14013">
+LabVIEW:  A client's attempt to establish a conversation has failed.
+</nierror>
+<nierror code="14014">
+LabVIEW:  A request for a synchronous poke transaction has timed out.
+</nierror>
+<nierror code="14015">
+LabVIEW:  An internal call to the PostMessage function has failed.
+</nierror>
+<nierror code="14016">
+LabVIEW:  An application instance with a synchronous transaction already in progress attempted to initiate another synchronous transaction, or the DdeEnableCallback function was called from within a DDEML call function.
+</nierror>
+<nierror code="14017">
+LabVIEW:  A server-side transaction was attempted on a conversation that was terminated by the client, or the server terminated before completing a transaction.
+</nierror>
+<nierror code="14018">
+LabVIEW:  An internal error has occurred in the DDEML.
+</nierror>
+<nierror code="14019">
+LabVIEW:  A request to end an advise transaction has timed out.
+</nierror>
+<nierror code="14020">
+LabVIEW:  An invalid transaction identifier was passed to a DDEML function.  Once the application has returned from an XTYP_XACT_COMPLETE callback, the transaction identifier for that callback is no longer valid.
+</nierror>
+<nierror code="14021">
+LabVIEW:  Invalid command code.
+</nierror>
+<nierror code="14022">
+LabVIEW:  Occurrence timeout; the transaction timed out before it completed.
+</nierror>
+<nierror code="14050">
+LabVIEW:  ActiveX Event Data was not available.
+</nierror>
+<nierror code="14051">
+LabVIEW:  ActiveX Event Information was not available.
+</nierror>
+<nierror code="14052">
+LabVIEW:  The Occurence associated with the ActiveX Event was not Found.
+</nierror>
+<nierror code="14053">
+LabVIEW:  The ActiveX Event Queue could not be created.
+</nierror>
+<nierror code="1073479937">
+LabVIEW:  (Hex 0x3FFC0101) ID Query not supported
+</nierror>
+<nierror code="1073479938">
+LabVIEW:  (Hex 0x3FFC0102) Reset not supported
+</nierror>
+<nierror code="1073479939">
+LabVIEW:  (Hex 0x3FFC0103) Self-test not supported
+</nierror>
+<nierror code="1073479940">
+LabVIEW:  (Hex 0x3FFC0104) Error Query not supported
+</nierror>
+<nierror code="1073479941">
+LabVIEW:  (Hex 0x3FFC0105) Revision Query not supported
+</nierror>
+</nidocument>

@@ -50,16 +50,16 @@ W przypadku większego stężenia KOH zmiana charakteru elektrolizera z Pojemno�
 
 Wraz z wzrostem stężenia KOH zwiększa się indukcyjność elektrolizera
 
-## Spostrzerzenia
+## Spostrzeżenia
 
 - Podczas zmiany punktu pracy prąd spada, a napięcie rośnie, co oznacza, że rezystancja elektrolizera również się zmienia.
 - Ciekawą obserwacją jest, że podczas zwalniania zaworu prąd znacznie rośnie, a potem powoli spada. Może wyższe ciśnienie prowadzi, do zwiększenia rezystancji elektrolizera zmniejszając produkcję. Jednak podczas pomiaru przepływomierzem (bez zmiany ciśnienia) można było zaobserwować wahania przy zmianie punktu pracy. Tą zależność będzie można wyłapać za pomocą pomiarów rejestrowanych automatycznie w czasie rzeczywistym.
 
-Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to wynika, ale jak trochę rozładowałem elektrolizer, to zaczął działać, ale tylko przez chwilę — i nie chciałem zmieniać stężenia roztowru, zanim będzie pewien pomiarów mostekm.
+Dalej nie ma pomiarów, bo mostek się zacina — nie wiem do końca, z czego to wynika, ale jak trochę rozładowałem elektrolizer, to zaczął działać, ale tylko przez chwilę — i nie chciałem zmieniać stężenia roztworu, zanim będzie pewien pomiarów mostkim.
 
 ## Pomiary
 
-### Stary roztwór KOH (nieznzne stężenie) 07.09.2020
+### Stary roztwór KOH (nieznane stężenie) 07.09.2020
 
 **Pomiary mostkiem RLC**
 
